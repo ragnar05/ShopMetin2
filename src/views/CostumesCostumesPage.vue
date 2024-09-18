@@ -26,7 +26,7 @@
             <p class="text-gray-600 mt-2">{{ product.description }}</p>
             <p class="text-gray-800 font-bold mt-2">{{ product.price }}</p>
             <a
-              :href="`mailto:?subject=Inquiry about ${product.name}&body=I'm interested in ${product.name}.`"
+              :href="`mailto:Shopmetin2.sales@gmail.com?subject=Inquiry about ${product.name}&body=I'm interested in ${product.name} for ${product.price}.`"
               class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 inline-block"
             >
               Contact

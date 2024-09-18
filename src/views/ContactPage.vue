@@ -57,7 +57,7 @@
     <div class="mt-8 max-w-lg mx-auto text-center">
       <p class="text-gray-700 mb-4">Or reach us through:</p>
       <a
-        href="mailto:contact@example.com"
+        href="mailto:Shopmetin2.sales@gmail.com"
         class="inline-flex items-center bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
       >
         <svg

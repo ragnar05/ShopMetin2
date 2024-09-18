@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-100 min-h-screen p-8">
     <!-- Título de la sección -->
-    <h1 class="text-4xl font-bold text-gray-800 mb-8">Costumes</h1>
+    <h1 class="text-4xl font-bold text-gray-800 mb-8">Resell</h1>
 
     <!-- Sección de agrupación de subgrupos -->
     <div v-for="category in categories" :key="category.name" class="mb-12">
@@ -49,7 +49,7 @@ import { ref } from "vue";
 // Ejemplo de datos de categorías y productos
 const categories = ref([
   {
-    name: "Costumes",
+    name: "Plechito",
     products: [
       {
         id: 1,
@@ -68,26 +68,7 @@ const categories = ref([
     ],
   },
   {
-    name: "Armors",
-    products: [
-      {
-        id: 1,
-        name: "Steel Armor",
-        description: "Durable steel armor.",
-        price: "$120",
-        image: "https://via.placeholder.com/400x200",
-      },
-      {
-        id: 2,
-        name: "Leather Armor",
-        description: "Lightweight leather armor.",
-        price: "$80",
-        image: "https://via.placeholder.com/400x200",
-      },
-    ],
-  },
-  {
-    name: "Weapons",
+    name: "Dane",
     products: [
       {
         id: 3,
@@ -106,7 +87,7 @@ const categories = ref([
     ],
   },
   {
-    name: "Sashes",
+    name: "Ridack",
     products: [
       {
         id: 3,
@@ -125,7 +106,7 @@ const categories = ref([
     ],
   },
   {
-    name: "Wings",
+    name: "Tatsumaru",
     products: [
       {
         id: 3,
@@ -144,7 +125,45 @@ const categories = ref([
     ],
   },
   {
-    name: "Hair",
+    name: "Mehok",
+    products: [
+      {
+        id: 3,
+        name: "Iron Sword",
+        description: "Sharp iron sword.",
+        price: "$100",
+        image: "https://via.placeholder.com/400x200",
+      },
+      {
+        id: 4,
+        name: "Wooden Bow",
+        description: "Sturdy wooden bow.",
+        price: "$70",
+        image: "https://via.placeholder.com/400x200",
+      },
+    ],
+  },
+  {
+    name: "Killua",
+    products: [
+      {
+        id: 3,
+        name: "Iron Sword",
+        description: "Sharp iron sword.",
+        price: "$100",
+        image: "https://via.placeholder.com/400x200",
+      },
+      {
+        id: 4,
+        name: "Wooden Bow",
+        description: "Sturdy wooden bow.",
+        price: "$70",
+        image: "https://via.placeholder.com/400x200",
+      },
+    ],
+  },
+  {
+    name: "Kidu",
     products: [
       {
         id: 3,

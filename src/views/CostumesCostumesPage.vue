@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-100 min-h-screen p-8">
     <!-- Título de la sección -->
-    <h1 class="text-4xl font-bold text-gray-800 mb-8">Armors</h1>
+    <h1 class="text-4xl font-bold text-gray-800 mb-8">Customes</h1>
 
     <!-- Sección de agrupación de subgrupos -->
     <div v-for="category in categories" :key="category.name" class="mb-12">
@@ -44,7 +44,7 @@ import { ref } from "vue";
 // Ejemplo de datos de categorías y productos
 const categories = ref([
   {
-    name: "Armors",
+    name: "Customes",
     products: [
       {
         id: 1,

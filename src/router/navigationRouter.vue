@@ -18,9 +18,14 @@
             style="z-index: 50"
           >
             <router-link
+              to="/costumes/costumes"
+              class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
+              >Costumes</router-link
+            >
+            <router-link
               to="/costumes/armors"
               class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
-              >Armors Costumes</router-link
+              >Armors</router-link
             >
             <router-link
               to="/costumes/weapons"
@@ -68,6 +73,53 @@
               to="/monsters/stones"
               class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
               >Stones</router-link
+            >
+          </div>
+        </div>
+
+        <!-- Dropdown Monsters -->
+        <div class="relative group">
+          <router-link to="/resell" class="text-gray-300 hover:text-white">
+            ReSell
+          </router-link>
+          <div
+            class="absolute left-0 hidden bg-gray-700 group-hover:block transition-all duration-300"
+            style="z-index: 50"
+          >
+            <router-link
+              to="/resell/plechito"
+              class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
+              >Plechito</router-link
+            >
+            <router-link
+              to="/resell/dane"
+              class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
+              >Dane</router-link
+            >
+            <router-link
+              to="/resell/ridack"
+              class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
+              >Ridack</router-link
+            >
+            <router-link
+              to="/resell/tatsumaru"
+              class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
+              >Tatsumaru</router-link
+            >
+            <router-link
+              to="/resell/mehok"
+              class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
+              >Mehok</router-link
+            >
+            <router-link
+              to="/resell/killua"
+              class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
+              >Killua</router-link
+            >
+            <router-link
+              to="/resell/kidu"
+              class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
+              >Kidu</router-link
             >
           </div>
         </div>
@@ -135,9 +187,14 @@
         </router-link>
         <div class="ml-4">
           <router-link
+            to="/costumes/costumes"
+            class="block text-gray-300 hover:bg-gray-600"
+            >Costumes</router-link
+          >
+          <router-link
             to="/costumes/armors"
             class="block text-gray-300 hover:bg-gray-600"
-            >Armors Costumes</router-link
+            >Armors</router-link
           >
           <router-link
             to="/costumes/weapons"
@@ -184,6 +241,49 @@
             to="/monsters/stones"
             class="block text-gray-300 hover:bg-gray-600"
             >Stones</router-link
+          >
+        </div>
+      </div>
+
+      <div class="relative">
+        <router-link to="/resell" class="block text-gray-300 hover:text-white">
+          ReSell
+        </router-link>
+        <div class="ml-4">
+          <router-link
+            to="/resell/plechito"
+            class="block text-gray-300 hover:bg-gray-600"
+            >Plechito</router-link
+          >
+          <router-link
+            to="/resell/dane"
+            class="block text-gray-300 hover:bg-gray-600"
+            >Dane</router-link
+          >
+          <router-link
+            to="/resell/ridack"
+            class="block text-gray-300 hover:bg-gray-600"
+            >Ridack</router-link
+          >
+          <router-link
+            to="/resell/tatsumaru"
+            class="block text-gray-300 hover:bg-gray-600"
+            >Tatsumaru</router-link
+          >
+          <router-link
+            to="/resell/mehok"
+            class="block text-gray-300 hover:bg-gray-600"
+            >Mehok</router-link
+          >
+          <router-link
+            to="/resell/killua"
+            class="block text-gray-300 hover:bg-gray-600"
+            >Killua</router-link
+          >
+          <router-link
+            to="/resell/kidu"
+            class="block text-gray-300 hover:bg-gray-600"
+            >Kidu</router-link
           >
         </div>
       </div>

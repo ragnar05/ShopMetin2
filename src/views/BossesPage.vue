@@ -51,7 +51,7 @@ const categories = ref([
         name: "Boss01",
         description: "Model Boss in Gr2 with animations",
         price: "5€",
-        image: "/public/img/boss01.jpg",
+        image: "public/img/boss01.jpg",
       },
       {
         id: 02,

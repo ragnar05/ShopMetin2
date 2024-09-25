@@ -143,6 +143,11 @@
               class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
               >Pets</router-link
             >
+            <router-link
+              to="/npc/npcs"
+              class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
+              >Npcs</router-link
+            >
           </div>
         </div>
 

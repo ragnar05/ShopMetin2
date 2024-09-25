@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-100 min-h-screen p-8">
     <!-- Título de la sección -->
-    <h1 class="text-4xl font-bold text-gray-800 mb-8">Armors</h1>
+    <h1 class="text-4xl font-bold text-gray-800 mb-8">Npcs</h1>
 
     <!-- Sección de agrupación de subgrupos -->
     <div v-for="category in categories" :key="category.name" class="mb-12">
@@ -44,35 +44,70 @@ import { ref } from "vue";
 // Ejemplo de datos de categorías y productos
 const categories = ref([
   {
-    name: "Armors",
+    name: "Npcs",
     products: [
       {
         id: 1,
-        name: "White King",
-        description: "Model Gr2 with textures HD",
-        price: "30€",
-        image: "/img/Armors/White_King1.jpg",
+        name: "Npc1",
+        description: "Model Npc in Gr2 with animations",
+        price: "2€",
+        image: "/img/Npcs/npc1.jpg",
       },
       {
         id: 2,
-        name: "King Monkey",
-        description: "Model Gr2 with textures HD",
-        price: "30€",
-        image: "/img/Armors/King_Monkey2.jpg",
+        name: "Npc2",
+        description: "Model Npc in Gr2 with animations",
+        price: "2€",
+        image: "/img/Npcs/npc2.jpg",
       },
       {
         id: 3,
-        name: "Red Bull",
-        description: "Model Gr2 with textures HD",
-        price: "30€",
-        image: "/img/Armors/Red_Bull3.jpg",
+        name: "Npc3",
+        description: "Model Npc in Gr2 with animations",
+        price: "2€",
+        image: "/img/Npcs/npc3.jpg",
       },
       {
         id: 4,
-        name: "Blood Moon",
-        description: "Model Gr2 with textures HD",
-        price: "30€",
-        image: "/img/Armors/Blood_Moon4.jpg",
+        name: "Npc4",
+        description: "Model Npc in Gr2 with animations",
+        price: "2€",
+        image: "/img/Npcs/npc4.jpg",
+      },
+      {
+        id: 5,
+        name: "Npc5",
+        description: "Model Npc in Gr2 with animations",
+        price: "2€",
+        image: "/img/Npcs/npc5.jpg",
+      },
+      {
+        id: 6,
+        name: "Npc6",
+        description: "Model Npc in Gr2 with animations",
+        price: "2€",
+        image: "/img/Npcs/npc6.jpg",
+      },
+      {
+        id: 7,
+        name: "Npc7",
+        description: "Model Npc in Gr2 with animations",
+        price: "2€",
+        image: "/img/Npcs/npc7.jpg",
+      },
+      {
+        id: 8,
+        name: "Npc8",
+        description: "Model Npc in Gr2 with animations",
+        price: "2€",
+        image: "/img/Npcs/npc8.jpg",
+      },
+      {
+        id: 9,
+        name: "Npc9",
+        description: "Model Npc in Gr2 with animations",
+        price: "2€",
+        image: "/img/Npcs/npc9.jpg",
       },
     ],
   },

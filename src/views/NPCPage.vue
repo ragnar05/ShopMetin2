@@ -87,7 +87,7 @@ const categories = ref([
     ],
   },
   {
-    name: "NPC",
+    name: "Npcs",
     products: [
       {
         id: 3,

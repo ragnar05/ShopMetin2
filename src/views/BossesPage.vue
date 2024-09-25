@@ -48,10 +48,10 @@ const categories = ref([
     products: [
       {
         id: 1,
-        name: "Steel Armor",
-        description: "Durable steel armor.",
-        price: "$120",
-        image: "https://via.placeholder.com/400x200",
+        name: "Boss",
+        description: "Model Boss in Gr2 with animations",
+        price: "5€",
+        image: "ShopMetin2/public/img/boss1.jpg",
       },
       {
         id: 2,

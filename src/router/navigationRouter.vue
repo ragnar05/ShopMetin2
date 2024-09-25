@@ -309,9 +309,9 @@
             >Pets</router-link
           >
           <router-link
-            to="/npc/npc"
+            to="/npc/npcs"
             class="block text-gray-300 hover:bg-gray-600"
-            >NPC</router-link
+            >Npcs</router-link
           >
         </div>
       </div>

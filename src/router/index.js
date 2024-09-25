@@ -23,7 +23,7 @@ import KiduPage from "@/views/KiduPage.vue";
 import NPCPage from "@/views/NPCPage.vue";
 import MountsPage from "@/views/MountsPage.vue";
 import PetsPage from "@/views/PetsPage.vue";
-import PetsPage from "@/views/NpcsPage.vue";
+import NpcsPage from "@/views/NpcsPage.vue";
 import FreePage from "@/views/FreePage.vue";
 import ContactPage from "@/views/ContactPage.vue";
 

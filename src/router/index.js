@@ -23,6 +23,7 @@ import KiduPage from "@/views/KiduPage.vue";
 import NPCPage from "@/views/NPCPage.vue";
 import MountsPage from "@/views/MountsPage.vue";
 import PetsPage from "@/views/PetsPage.vue";
+import PetsPage from "@/views/NpcsPage.vue";
 import FreePage from "@/views/FreePage.vue";
 import ContactPage from "@/views/ContactPage.vue";
 
@@ -54,6 +55,7 @@ const routes = [
   { path: "/npc", name: "NPC", component: NPCPage },
   { path: "/npc/mounts", name: "Mounts", component: MountsPage },
   { path: "/npc/pets", name: "Pets", component: PetsPage },
+  { path: "/npc/npcs", name: "Npcs", component: NpcsPage },
   { path: "/free", name: "Free", component: FreePage },
   { path: "/contact", name: "Contact", component: ContactPage },
 ];

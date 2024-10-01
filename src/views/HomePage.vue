@@ -123,32 +123,28 @@
     </section>
 
     <!-- Sección de Ofertas -->
-    <section class="mt-12 bg-gray-200 p-8 rounded-lg">
+    <section class="mt-12 bg-gray-200 p-4 md:p-8 rounded-lg">
       <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">
         Special Offers
       </h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        <div class="bg-white rounded-lg shadow-md overflow-hidden">
-          <img
-            src="https://via.placeholder.com/400x200"
-            alt="Offer 1"
-            class="w-full h-48 object-cover"
+      <div class="grid grid-cols-1 gap-8">
+        <!-- Contenedor del ProductCard -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'Bone of Golry Set'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="[
+              '/img/Armors/White_King1.jpg',
+              '/img/Armors/King_Monkey2.jpg',
+              '/img/Armors/Red_Bull3.jpg',
+            ]"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
-          <div class="p-4 text-center">
-            <h3 class="text-xl font-semibold text-gray-800 mb-2">
-              Limited Time Offer
-            </h3>
-            <p class="text-gray-600 mb-4">
-              Don’t miss out on our special discounts and promotions available
-              for a limited time only.
-            </p>
-            <router-link
-              to="/offers"
-              class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors"
-            >
-              View Offers
-            </router-link>
-          </div>
         </div>
       </div>
     </section>
@@ -156,6 +152,8 @@
 </template>
 
 <script setup>
+import ProductCard from "@/components/productCard.vue";
+
 // No necesitas lógica específica para esta vista, pero puedes agregarla si la necesitas
 </script>
 

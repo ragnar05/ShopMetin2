@@ -1,9 +1,6 @@
 <template>
   <div class="bg-gray-100 min-h-screen p-8">
-    <!-- Título de la página -->
     <h1 class="text-4xl font-bold text-gray-800 mb-8">Contact Us</h1>
-
-    <!-- Formulario de contacto -->
     <div class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-md">
       <form @submit.prevent="handleSubmit">
         <div class="mb-4">
@@ -53,7 +50,6 @@
       </form>
     </div>
 
-    <!-- Botones de contacto adicionales -->
     <div class="mt-8 max-w-lg mx-auto text-center">
       <p class="text-gray-700 mb-4">Or reach us through:</p>
       <a
@@ -103,6 +99,7 @@
 
 <script setup>
 import { ref } from "vue";
+import emailjs from "emailjs-com";
 
 const form = ref({
   name: "",
@@ -110,9 +107,24 @@ const form = ref({
   message: "",
 });
 
-const handleSubmit = () => {
-  // Aquí puedes manejar el envío del formulario
-  console.log("Form submitted:", form.value);
-  // Por ejemplo, podrías hacer una solicitud POST a tu servidor aquí
+const handleSubmit = async () => {
+  try {
+    // Enviar el correo electrónico a través de EmailJS
+    const response = await emailjs.send(
+      "service_ucc464r",
+      "template_vekl8ww",
+      form.value,
+      "xZnsq8T-AaPhxG6tD"
+    );
+
+    // Mostrar mensaje de éxito
+    console.log("Email sent successfully:", response.status, response.text);
+    // Limpia el formulario
+    form.value.name = "";
+    form.value.email = "";
+    form.value.message = "";
+  } catch (error) {
+    console.error("Error sending email:", error);
+  }
 };
 </script>

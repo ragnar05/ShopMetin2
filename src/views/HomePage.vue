@@ -140,21 +140,16 @@
             ]"
             :images="[
               '/img/Armors/White_King1.jpg',
+              '/img/Armors/White_King1.jpg',
             ]"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>
-      </div>
-    </section>
-    <section class="mt-12 bg-gray-200 p-4 md:p-8 rounded-lg">
-<!--       <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">
-        Special Offers
-      </h2>
- -->      <div class="grid grid-cols-1 gap-8">
-        <!-- Contenedor del ProductCard -->
+
+        <!-- ESTE DIV ES EL QUE SE COPIA-->
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
-          <ProductCard1
-            :productTitle="'King Monkey'"
+          <ProductCard
+            :productTitle="'Ejemplo'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -162,22 +157,16 @@
               'Effects',
             ]"
             :images="[
-              '/img/Armors/King_Monkey2.jpg',
+              '/img/Armors/White_King1.jpg',
+              '/img/Armors/White_King1.jpg',
             ]"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>
-      </div>
-    </section>
-    <section class="mt-12 bg-gray-200 p-4 md:p-8 rounded-lg">
-<!--       <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">
-        Special Offers
-      </h2>
- -->      <div class="grid grid-cols-1 gap-8">
-        <!-- Contenedor del ProductCard -->
+
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
-          <ProductCard2
-            :productTitle="'Red Bull'"
+          <ProductCard
+            :productTitle="'Ejemplo 2'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -185,30 +174,8 @@
               'Effects',
             ]"
             :images="[
-              '/img/Armors/Red_Bull3.jpg',
-            ]"
-            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
-          />
-        </div>
-      </div>
-    </section>
-    <section class="mt-12 bg-gray-200 p-4 md:p-8 rounded-lg">
-<!--       <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">
-        Special Offers
-      </h2>
- -->      <div class="grid grid-cols-1 gap-8">
-        <!-- Contenedor del ProductCard -->
-        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
-          <ProductCard3
-            :productTitle="'Blood Moon'"
-            :features="[
-              'Costume (+hairstyle, icons, msm)',
-              'Weapons',
-              'Wings',
-              'Effects',
-            ]"
-            :images="[
-              '/img/Armors/Blood_Moon4.jpg',
+              '/img/Armors/White_King1.jpg',
+              '/img/Armors/White_King1.jpg',
             ]"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />

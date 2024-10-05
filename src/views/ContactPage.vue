@@ -53,7 +53,7 @@
     <div class="mt-8 max-w-lg mx-auto text-center">
       <p class="text-gray-700 mb-4">Or reach us through:</p>
       <a
-        href="mailto:Shopmetin2.sales@gmail.com"
+        href="shopmetin2.sales@gmail.com"
         class="inline-flex items-center bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
       >
         <svg
@@ -73,7 +73,7 @@
         Email Us
       </a>
       <a
-        href="https://discord.gg/your-invite-link"
+        href="https://discord.gg/ekys6jTB"
         target="_blank"
         class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 mt-4"
       >

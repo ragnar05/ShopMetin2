@@ -140,7 +140,6 @@
             ]"
             :images="[
               '/img/Armors/White_King1.jpg',
-              '/img/Armors/White_King1.jpg',
             ]"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
@@ -149,7 +148,7 @@
         <!-- ESTE DIV ES EL QUE SE COPIA-->
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Ejemplo'"
+            :productTitle="'King Monkey'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -157,8 +156,7 @@
               'Effects',
             ]"
             :images="[
-              '/img/Armors/White_King1.jpg',
-              '/img/Armors/White_King1.jpg',
+              '/img/Armors/King_Monkey2.jpg',
             ]"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
@@ -166,7 +164,7 @@
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Ejemplo 2'"
+            :productTitle="'Red Bull'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -174,8 +172,23 @@
               'Effects',
             ]"
             :images="[
-              '/img/Armors/White_King1.jpg',
-              '/img/Armors/White_King1.jpg',
+              '/img/Armors/Red_Bull3.jpg',
+            ]"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
+          />
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'Blood Moon'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="[
+              '/img/Armors/Blood_Moon4.jpg',
             ]"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />

@@ -147,7 +147,6 @@
           />
         </div>
       </div>
-    </section>
     <section class="mt-12 bg-gray-200 p-4 md:p-8 rounded-lg">
       <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">
         Special Offers
@@ -172,7 +171,6 @@
           />
         </div>
       </div>
-    </section>
     <section class="mt-12 bg-gray-200 p-4 md:p-8 rounded-lg">
       <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">
         Special Offers
@@ -197,7 +195,6 @@
           />
         </div>
       </div>
-    </section>
     <section class="mt-12 bg-gray-200 p-4 md:p-8 rounded-lg">
       <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">
         Special Offers

@@ -155,7 +155,7 @@
  -->      <div class="grid grid-cols-1 gap-8">
         <!-- Contenedor del ProductCard -->
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
-          <ProductCard
+          <ProductCard1
             :productTitle="'King Monkey'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
@@ -180,7 +180,7 @@
  -->      <div class="grid grid-cols-1 gap-8">
         <!-- Contenedor del ProductCard -->
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
-          <ProductCard
+          <ProductCard2
             :productTitle="'Red Bull'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
@@ -205,7 +205,7 @@
  -->      <div class="grid grid-cols-1 gap-8">
         <!-- Contenedor del ProductCard -->
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
-          <ProductCard
+          <ProductCard3
             :productTitle="'Blood Moon'"
             :features="[
               'Costume (+hairstyle, icons, msm)',

@@ -140,8 +140,6 @@
             ]"
             :images="[
               '/img/Armors/White_King1.jpg',
-              //'/img/Armors/King_Monkey2.jpg',
-              //'/img/Armors/Red_Bull3.jpg',
             ]"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
@@ -164,9 +162,7 @@
               'Effects',
             ]"
             :images="[
-              //'/img/Armors/White_King1.jpg',
               '/img/Armors/King_Monkey2.jpg',
-              //'/img/Armors/Red_Bull3.jpg',
             ]"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
@@ -189,8 +185,6 @@
               'Effects',
             ]"
             :images="[
-              //'/img/Armors/White_King1.jpg',
-              //'/img/Armors/King_Monkey2.jpg',
               '/img/Armors/Red_Bull3.jpg',
             ]"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
@@ -214,9 +208,6 @@
               'Effects',
             ]"
             :images="[
-              //'/img/Armors/White_King1.jpg',
-              //'/img/Armors/King_Monkey2.jpg',
-              //'/img/Armors/Red_Bull3.jpg',
               '/img/Armors/Blood_Moon4.jpg',
             ]"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"

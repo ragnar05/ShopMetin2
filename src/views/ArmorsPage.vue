@@ -37,8 +37,7 @@
     </div>
     <!-- Sección de Ofertas -->
     <section class="mt-12 bg-gray-200 p-4 md:p-8 rounded-lg">
-      <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">
-        Armors
+      <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Armors</h2>
       <div class="grid grid-cols-1 gap-8">
         <!-- Contenedor del ProductCard -->
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
@@ -50,9 +49,7 @@
               'Wings',
               'Effects',
             ]"
-            :images="[
-              '/img/Armors/White_King1.jpg',
-            ]"
+            :images="['/img/Armors/White_King1.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>
@@ -67,9 +64,7 @@
               'Wings',
               'Effects',
             ]"
-            :images="[
-              '/img/Armors/King_Monkey2.jpg',
-            ]"
+            :images="['/img/Armors/King_Monkey2.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>
@@ -83,9 +78,7 @@
               'Wings',
               'Effects',
             ]"
-            :images="[
-              '/img/Armors/Red_Bull3.jpg',
-            ]"
+            :images="['/img/Armors/Red_Bull3.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>
@@ -99,9 +92,7 @@
               'Wings',
               'Effects',
             ]"
-            :images="[
-              '/img/Armors/Blood_Moon4.jpg',
-            ]"
+            :images="['/img/Armors/Blood_Moon4.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>

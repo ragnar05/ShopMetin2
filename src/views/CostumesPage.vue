@@ -58,8 +58,8 @@
               'Effects',
             ]"
             :images="[
-              '/img/Armors/White_King1.jpg',
-              '/img/Armors/White_King1.jpg',
+              'img/Armors/White_King1.jpg',
+              'img/Armors/White_King1.jpg',
             ]"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
@@ -76,8 +76,8 @@
               'Effects',
             ]"
             :images="[
-              '/img/Armors/White_King1.jpg',
-              '/img/Armors/White_King1.jpg',
+              'img/Armors/White_King1.jpg',
+              'img/Armors/White_King1.jpg',
             ]"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />

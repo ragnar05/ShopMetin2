@@ -61,7 +61,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory("/ShopMetin2/"), // Usa la ruta base del repositorio
+  history: createWebHistory(),
   routes,
 });
 

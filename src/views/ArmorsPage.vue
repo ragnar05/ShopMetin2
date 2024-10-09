@@ -49,7 +49,7 @@
               'Wings',
               'Effects',
             ]"
-            :images="['img/Armors/White_King1.jpg']"
+            :images="['/img/Armors/White_King1.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>
@@ -64,7 +64,7 @@
               'Wings',
               'Effects',
             ]"
-            :images="['img/Armors/King_Monkey2.jpg']"
+            :images="['/img/Armors/King_Monkey2.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>
@@ -78,7 +78,7 @@
               'Wings',
               'Effects',
             ]"
-            :images="['img/Armors/Red_Bull3.jpg']"
+            :images="['/img/Armors/Red_Bull3.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>
@@ -92,7 +92,7 @@
               'Wings',
               'Effects',
             ]"
-            :images="['img/Armors/Blood_Moon4.jpg']"
+            :images="['/img/Armors/Blood_Moon4.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>
@@ -115,28 +115,28 @@ const categories = ref([
         name: "White King",
         description: "Model Gr2 with textures HD",
         price: "30€",
-        image: "img/Armors/White_King1.jpg",
+        image: "/img/Armors/White_King1.jpg",
       },
       {
         id: 2,
         name: "King Monkey",
         description: "Model Gr2 with textures HD",
         price: "30€",
-        image: "img/Armors/King_Monkey2.jpg",
+        image: "/img/Armors/King_Monkey2.jpg",
       },
       {
         id: 3,
         name: "Red Bull",
         description: "Model Gr2 with textures HD",
         price: "30€",
-        image: "img/Armors/Red_Bull3.jpg",
+        image: "/img/Armors/Red_Bull3.jpg",
       },
       {
         id: 4,
         name: "Blood Moon",
         description: "Model Gr2 with textures HD",
         price: "30€",
-        image: "img/Armors/Blood_Moon4.jpg",
+        image: "/img/Armors/Blood_Moon4.jpg",
       },
     ],
   },

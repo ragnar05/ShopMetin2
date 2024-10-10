@@ -1,0 +1,10 @@
+<script type="text/javascript">
+  // Redirigir todas las rutas al index.html, manteniendo la ruta en el hash
+  var redirect = function() {
+    var path = window.location.pathname;
+    if (path !== "/") {
+      window.location.replace("/#/" + path);
+    }
+  };
+  redirect();
+</script>

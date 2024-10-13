@@ -96,6 +96,60 @@
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'Super Armor'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="['/img/Armors/super_armor.jpg']"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
+          />
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'Blue Armor'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="['/img/Armors/blue_armor.jpg']"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
+          />
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'Gold Dragon'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="['/img/Armors/gold_dragon.jpg']"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
+          />
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'Armor Dragon Slayer'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="['/img/Armors/armor_dragon_slayer.jpg']"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
+          />
+
+        </div>
       </div>
     </section>
   </div>

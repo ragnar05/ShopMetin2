@@ -77,6 +77,55 @@
           </div>
         </div>
 
+        <!-- Dropdown NPC -->
+        <div class="relative group">
+          <router-link to="/npc" class="text-gray-300 hover:text-white">
+            NPC
+          </router-link>
+          <div
+            class="absolute left-0 hidden bg-gray-700 group-hover:block transition-all duration-300"
+            style="z-index: 50"
+          >
+            <router-link
+              to="/npc/mounts"
+              class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
+              >Mounts</router-link
+            >
+            <router-link
+              to="/npc/pets"
+              class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
+              >Pets</router-link
+            >
+            <router-link
+              to="/npc/npcs"
+              class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
+              >Npcs</router-link
+            >
+          </div>
+        </div>
+
+        <!-- Dropdown MAPS -->
+        <div class="relative group">
+          <router-link to="/maps" class="text-gray-300 hover:text-white">
+            MAPS
+          </router-link>
+          <div
+            class="absolute left-0 hidden bg-gray-700 group-hover:block transition-all duration-300"
+            style="z-index: 50"
+          >
+            <router-link
+              to="/maps/maps"
+              class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
+              >Maps</router-link
+            >
+            <router-link
+              to="/maps/dungeons"
+              class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
+              >Dungeons</router-link
+            >
+          </div>
+        </div>
+
         <!-- Dropdown Monsters -->
         <div class="relative group">
           <router-link to="/resell" class="text-gray-300 hover:text-white">
@@ -120,33 +169,6 @@
               to="/resell/kidu"
               class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
               >Kidu</router-link
-            >
-          </div>
-        </div>
-
-        <!-- Dropdown NPC -->
-        <div class="relative group">
-          <router-link to="/npc" class="text-gray-300 hover:text-white">
-            NPC
-          </router-link>
-          <div
-            class="absolute left-0 hidden bg-gray-700 group-hover:block transition-all duration-300"
-            style="z-index: 50"
-          >
-            <router-link
-              to="/npc/mounts"
-              class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
-              >Mounts</router-link
-            >
-            <router-link
-              to="/npc/pets"
-              class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
-              >Pets</router-link
-            >
-            <router-link
-              to="/npc/npcs"
-              class="block px-4 py-2 text-gray-300 hover:bg-gray-600"
-              >Npcs</router-link
             >
           </div>
         </div>

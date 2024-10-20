@@ -4,6 +4,7 @@ import HomePage from "@/views/HomePage.vue";
 import CostumesPage from "@/views/CostumesPage.vue";
 import CostumesCostumesPage from "@/views/CostumesCostumesPage.vue";
 import ArmorsPage from "@/views/ArmorsPage.vue";
+import MapsPage from "@/views/MapsPage.vue";
 import WeaponsPage from "@/views/WeaponsPage.vue";
 import SashesPage from "@/views/SashesPage.vue";
 import WingsPage from "@/views/WingsPage.vue";
@@ -44,6 +45,13 @@ const routes = [
   { path: "/monsters/mobs", name: "Mobs", component: MobsPage },
   { path: "/monsters/bosses", name: "Bosses", component: BossesPage },
   { path: "/monsters/stones", name: "Stones", component: StonesPage },
+  { path: "/npc", name: "NPC", component: NPCPage },
+  { path: "/npc/mounts", name: "Mounts", component: MountsPage },
+  { path: "/npc/pets", name: "Pets", component: PetsPage },
+  { path: "/npc/npcs", name: "Npcs", component: NpcsPage },
+  { path: "/maps", name: "Maps", component: MapsPage },
+  { path: "/maps/maps", name: "Normal Maps", component: MapsnormalPage },
+  { path: "/maps/dungeons", name: "Dungeons", component: DungeonsPage },
   { path: "/resell", name: "Resell", component: ResellPage },
   { path: "/resell/plechito", name: "Plechito", component: PlechitoPage },
   { path: "/resell/dane", name: "Dane", component: DanePage },
@@ -52,10 +60,6 @@ const routes = [
   { path: "/resell/mehok", name: "Mehok", component: MehokPage },
   { path: "/resell/killua", name: "Killua", component: KilluaPage },
   { path: "/resell/kidu", name: "Kidu", component: KiduPage },
-  { path: "/npc", name: "NPC", component: NPCPage },
-  { path: "/npc/mounts", name: "Mounts", component: MountsPage },
-  { path: "/npc/pets", name: "Pets", component: PetsPage },
-  { path: "/npc/npcs", name: "Npcs", component: NpcsPage },
   { path: "/free", name: "Free", component: FreePage },
   { path: "/contact", name: "Contact", component: ContactPage },
 ];

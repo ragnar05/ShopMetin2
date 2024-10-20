@@ -52,7 +52,7 @@ const routes = [
   { path: "/npc/pets", name: "Pets", component: PetsPage },
   { path: "/npc/npcs", name: "Npcs", component: NpcsPage },
   { path: "/maps", name: "Maps", component: MapsPage },
-  { path: "/maps/maps", name: "Normal Maps", component: MapsnormalPage },
+  { path: "/maps/maps", name: "NormalMaps", component: MapsnormalPage },
   { path: "/maps/dungeons", name: "Dungeons", component: DungeonsPage },
   { path: "/resell", name: "Resell", component: ResellPage },
   { path: "/resell/plechito", name: "Plechito", component: PlechitoPage },

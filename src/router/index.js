@@ -17,7 +17,7 @@ import MountsPage from "@/views/MountsPage.vue";
 import PetsPage from "@/views/PetsPage.vue";
 import NpcsPage from "@/views/NpcsPage.vue";
 import MapsPage from "@/views/MapsPage.vue";
-import MapsNormalPage from "@/views/MapsnormalPage.vue";
+import NormalMapsPage from "@/views/NormalMapsPage.vue";
 import DungeonsPage from "@/views/DungeonsPage.vue";
 import ResellPage from "@/views/ResellPage.vue";
 import PlechitoPage from "@/views/PlechitoPage.vue";
@@ -52,7 +52,7 @@ const routes = [
   { path: "/npc/pets", name: "Pets", component: PetsPage },
   { path: "/npc/npcs", name: "Npcs", component: NpcsPage },
   { path: "/maps", name: "Maps", component: MapsPage },
-  { path: "/maps/maps", name: "NormalMaps", component: MapsnormalPage },
+  { path: "/maps/maps", name: "NormalMaps", component: NormalMapsPage },
   { path: "/maps/dungeons", name: "Dungeons", component: DungeonsPage },
   { path: "/resell", name: "Resell", component: ResellPage },
   { path: "/resell/plechito", name: "Plechito", component: PlechitoPage },

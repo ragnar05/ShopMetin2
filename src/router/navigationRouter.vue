@@ -107,7 +107,7 @@
         <!-- Dropdown MAPS -->
         <div class="relative group">
           <router-link to="/maps" class="text-gray-300 hover:text-white">
-            MAPS
+            Maps
           </router-link>
           <div
             class="absolute left-0 hidden bg-gray-700 group-hover:block transition-all duration-300"

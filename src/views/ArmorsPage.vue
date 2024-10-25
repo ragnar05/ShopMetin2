@@ -239,7 +239,7 @@
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Warrior Imperial'"
+            :productTitle="'Warrior Imperial				·30€'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -247,90 +247,6 @@
               'Effects',
             ]"
             :images="['/img/Armors/warriorimperial.jpg']"
-            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
-          />
-        </div>
-
-        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
-          <ProductCard
-            :productTitle="'Armor Dragon Slayer'"
-            :features="[
-              'Costume (+hairstyle, icons, msm)',
-              'Weapons',
-              'Wings',
-              'Effects',
-            ]"
-            :images="['/img/Armors/dragonSlayer.jpg']"
-            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
-          />
-        </div>
-
-        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
-          <ProductCard
-            :productTitle="'Armor Dragon Slayer'"
-            :features="[
-              'Costume (+hairstyle, icons, msm)',
-              'Weapons',
-              'Wings',
-              'Effects',
-            ]"
-            :images="['/img/Armors/dragonSlayer.jpg']"
-            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
-          />
-        </div>
-
-        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
-          <ProductCard
-            :productTitle="'Armor Dragon Slayer'"
-            :features="[
-              'Costume (+hairstyle, icons, msm)',
-              'Weapons',
-              'Wings',
-              'Effects',
-            ]"
-            :images="['/img/Armors/dragonSlayer.jpg']"
-            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
-          />
-        </div>
-
-        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
-          <ProductCard
-            :productTitle="'Armor Dragon Slayer'"
-            :features="[
-              'Costume (+hairstyle, icons, msm)',
-              'Weapons',
-              'Wings',
-              'Effects',
-            ]"
-            :images="['/img/Armors/dragonSlayer.jpg']"
-            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
-          />
-        </div>
-
-        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
-          <ProductCard
-            :productTitle="'Armor Dragon Slayer'"
-            :features="[
-              'Costume (+hairstyle, icons, msm)',
-              'Weapons',
-              'Wings',
-              'Effects',
-            ]"
-            :images="['/img/Armors/dragonSlayer.jpg']"
-            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
-          />
-        </div>
-
-        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
-          <ProductCard
-            :productTitle="'Armor Dragon Slayer'"
-            :features="[
-              'Costume (+hairstyle, icons, msm)',
-              'Weapons',
-              'Wings',
-              'Effects',
-            ]"
-            :images="['/img/Armors/dragonSlayer.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>

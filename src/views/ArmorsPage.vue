@@ -42,14 +42,14 @@
         <!-- Contenedor del ProductCard -->
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Bone of Golry Set'"
+            :productTitle="'White King'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
               'Wings',
               'Effects',
             ]"
-            :images="['/img/Armors/White_King1.jpg']"
+            :images="['/img/Armors/white_king.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>
@@ -57,14 +57,14 @@
         <!-- ESTE DIV ES EL QUE SE COPIA-->
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'King Monkey'"
+            :productTitle="'Monkey King'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
               'Wings',
               'Effects',
             ]"
-            :images="['/img/Armors/King_Monkey2.jpg']"
+            :images="['/img/Armors/monkeyking.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>
@@ -78,49 +78,49 @@
               'Wings',
               'Effects',
             ]"
-            :images="['/img/Armors/Red_Bull3.jpg']"
+            :images="['/img/Armors/redbull.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Blood Moon'"
+            :productTitle="'Ronin Blood'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
               'Wings',
               'Effects',
             ]"
-            :images="['/img/Armors/Blood_Moon4.jpg']"
+            :images="['/img/Armors/roninblood.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Super Armor'"
+            :productTitle="'Black Steel'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
               'Wings',
               'Effects',
             ]"
-            :images="['/img/Armors/super_armor.jpg']"
+            :images="['/img/Armors/blacksteel.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Blue Armor'"
+            :productTitle="'Blue Demon'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
               'Wings',
               'Effects',
             ]"
-            :images="['/img/Armors/blue_armor.jpg']"
+            :images="['/img/Armors/bluedemon.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>
@@ -134,7 +134,7 @@
               'Wings',
               'Effects',
             ]"
-            :images="['/img/Armors/gold_dragon.jpg']"
+            :images="['/img/Armors/goldragoon.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>
@@ -148,7 +148,189 @@
               'Wings',
               'Effects',
             ]"
-            :images="['/img/Armors/armor_dragon_slayer.jpg']"
+            :images="['/img/Armors/dragonSlayer.jpg']"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
+          />
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'Bloddy Armor'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="['/img/Armors/bloddy.jpg']"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
+          />
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'Imperial Knight'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="['/img/Armors/caballeroimperial.jpg']"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
+          />
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'Glacial Dragon'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="['/img/Armors/dragonglacial.jpg']"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
+          />
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'Dragon Hunt'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="['/img/Armors/dragonhunter.jpg']"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
+          />
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'Guardian Forest'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="['/img/Armors/guardianforest.jpg']"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
+          />
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'King Demon'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="['/img/Armors/kingdemon.jpg']"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
+          />
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'Warrior Imperial'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="['/img/Armors/warriorimperial.jpg']"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
+          />
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'Armor Dragon Slayer'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="['/img/Armors/dragonSlayer.jpg']"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
+          />
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'Armor Dragon Slayer'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="['/img/Armors/dragonSlayer.jpg']"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
+          />
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'Armor Dragon Slayer'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="['/img/Armors/dragonSlayer.jpg']"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
+          />
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'Armor Dragon Slayer'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="['/img/Armors/dragonSlayer.jpg']"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
+          />
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'Armor Dragon Slayer'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="['/img/Armors/dragonSlayer.jpg']"
+            :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
+          />
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
+          <ProductCard
+            :productTitle="'Armor Dragon Slayer'"
+            :features="[
+              'Costume (+hairstyle, icons, msm)',
+              'Weapons',
+              'Wings',
+              'Effects',
+            ]"
+            :images="['/img/Armors/dragonSlayer.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
         </div>

@@ -261,42 +261,42 @@ import { ref } from "vue";
 import ProductCard from "@/components/productCard.vue";
 
 // Ejemplo de datos de categorías y productos
-const categories = ref([
-  {
-    name: "Armors",
-    products: [
-      {
-        id: 1,
-        name: "White King",
-        description: "Model Gr2 with textures HD",
-        price: "30€",
-        image: "/img/Armors/White_King1.jpg",
-      },
-      {
-        id: 2,
-        name: "King Monkey",
-        description: "Model Gr2 with textures HD",
-        price: "30€",
-        image: "/img/Armors/King_Monkey2.jpg",
-      },
-      {
-        id: 3,
-        name: "Red Bull",
-        description: "Model Gr2 with textures HD",
-        price: "30€",
-        image: "/img/Armors/Red_Bull3.jpg",
-      },
-      {
-        id: 4,
-        name: "Blood Moon",
-        description: "Model Gr2 with textures HD",
-        price: "30€",
-        image: "/img/Armors/Blood_Moon4.jpg",
-      },
-    ],
-  },
-]);
-</script>
+//const categories = ref([
+//  {
+//    name: "Armors",
+//    products: [
+//      {
+//        id: 1,
+//        name: "White King",
+//        description: "Model Gr2 with textures HD",
+//        price: "30€",
+//        image: "/img/Armors/White_King1.jpg",
+//      },
+//      {
+//        id: 2,
+//        name: "King Monkey",
+//        description: "Model Gr2 with textures HD",
+//        price: "30€",
+//        image: "/img/Armors/King_Monkey2.jpg",
+//      },
+//      {
+//        id: 3,
+//        name: "Red Bull",
+//        description: "Model Gr2 with textures HD",
+//        price: "30€",
+//        image: "/img/Armors/Red_Bull3.jpg",
+//      },
+//      {
+//        id: 4,
+//        name: "Blood Moon",
+//        description: "Model Gr2 with textures HD",
+//        price: "30€",
+//        image: "/img/Armors/Blood_Moon4.jpg",
+//      },
+//    ],
+//  },
+//]);
+//</script>
 
 <style scoped>
 /* Estilos adicionales si es necesario */

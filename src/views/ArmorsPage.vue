@@ -257,7 +257,7 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+//import { ref } from "vue";
 import ProductCard from "@/components/productCard.vue";
 
 // Ejemplo de datos de categorías y productos

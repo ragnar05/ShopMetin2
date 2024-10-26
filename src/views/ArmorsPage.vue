@@ -246,6 +246,7 @@
               'Wings',
               'Effects',
             ]"
+			:price: "30€",
             :images="['/img/Armors/warriorimperial.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />

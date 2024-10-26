@@ -42,7 +42,7 @@
         <!-- Contenedor del ProductCard -->
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'White King'"
+            :productTitle="'White King --- Price :30€'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -57,7 +57,7 @@
         <!-- ESTE DIV ES EL QUE SE COPIA-->
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Monkey King'"
+            :productTitle="'Monkey King --- Price :30€'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -71,7 +71,7 @@
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Red Bull'"
+            :productTitle="'Red Bull --- Price :30€'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -85,7 +85,7 @@
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Ronin Blood'"
+            :productTitle="'Ronin Blood --- Price :30€'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -99,7 +99,7 @@
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Black Steel'"
+            :productTitle="'Black Steel --- Price :30€'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -113,7 +113,7 @@
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Blue Demon'"
+            :productTitle="'Blue Demon --- Price :30€'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -127,7 +127,7 @@
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Gold Dragon'"
+            :productTitle="'Gold Dragon --- Price :30€'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -141,7 +141,7 @@
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Armor Dragon Slayer'"
+            :productTitle="'Armor Dragon Slayer --- Price :30€'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -155,7 +155,7 @@
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Bloddy Armor'"
+            :productTitle="'Bloddy Armor --- Price :30€'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -169,7 +169,7 @@
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Imperial Knight'"
+            :productTitle="'Imperial Knight --- Price :30€'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -183,7 +183,7 @@
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Glacial Dragon'"
+            :productTitle="'Glacial Dragon --- Price :30€'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -197,7 +197,7 @@
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Dragon Hunt'"
+            :productTitle="'Dragon Hunt --- Price :30€'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -211,7 +211,7 @@
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Guardian Forest'"
+            :productTitle="'Guardian Forest --- Price :30€'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -225,7 +225,7 @@
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'King Demon'"
+            :productTitle="'King Demon --- Price :30€'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
@@ -239,14 +239,13 @@
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden w-full">
           <ProductCard
-            :productTitle="'Warrior Imperial				·30€'"
+            :productTitle="'Warrior Imperial --- Price :30€'"
             :features="[
               'Costume (+hairstyle, icons, msm)',
               'Weapons',
               'Wings',
               'Effects',
             ]"
-			:price: "30€",
             :images="['/img/Armors/warriorimperial.jpg']"
             :urlIngameVideo="'https://www.youtube.com/watch?v=6v2L2UGZJAM'"
           />
